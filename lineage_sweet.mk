@@ -16,7 +16,9 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Gapps
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+WITH_GMS := true
+TARGET_GAPPS_VARIANT := core
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 
 PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
