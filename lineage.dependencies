@@ -4,8 +4,7 @@
     "target_path": "device/xiaomi/sm6150-common"
   },
   {
-    "remote": "gitlab",
-    "repository": "NoPrincessHere/proprietary_vendor_oneplus_dolby",
+    "repository": "proprietary_vendor_oneplus_dolby",
     "target_path": "vendor/oneplus/dolby"
   }
 ]
